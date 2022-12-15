@@ -1,4 +1,4 @@
-import { Statistic } from "components/Statistic/Statistic";
+// import { Statistic } from "components/Statistic/Statistic";
 import React, { Component } from "react";
 import { FeedbackBlok, FeedbackText, ButtonFeedback, } from "./Feedback.styles";
 
@@ -49,7 +49,7 @@ class Feedback extends Component{
                     <ButtonFeedback onClick={this.ButtoBad}>bad</ButtonFeedback>
                 </div>
             </FeedbackBlok>
-            <Statistic/>
+            {/* <Statistic/> */}
             </>
             
         )

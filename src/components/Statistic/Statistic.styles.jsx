@@ -9,3 +9,9 @@ export const StatisticBlock = styled.div`
     padding: 15px;
     text-align: center;  
 `;
+
+export const StatisticTitle = styled.h1`
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+`;

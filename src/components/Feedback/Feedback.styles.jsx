@@ -9,6 +9,7 @@ export const FeedbackBlok = styled.div`
     margin-right: auto;
     margin-bottom: 5px;
     padding: 15px;
+    margin-bottom: 1px;
     text-align: center;
 `;
 
