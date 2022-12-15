@@ -1,16 +1,22 @@
 import React from "react";
 import Feedback from "../Feedback/Feedback";
 
+import { Statistic } from "components/Statistic/Statistic";
 import { GlobalStyle } from "../GlobalStyles";
 import { HeaderFeedback, } from "./App.styles";
 
 
 const App = () => (
     <>
-        <HeaderFeedback>Feedback</HeaderFeedback>
-        <Feedback/>
-        <GlobalStyle/>
+        <div>
+            <HeaderFeedback>Feedback</HeaderFeedback>
+            <Feedback />
+            <Statistic/>
+            <GlobalStyle/>
+    
+        </div>
     </>
+
 )
 
 export default App;
